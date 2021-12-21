@@ -1,0 +1,6 @@
+version: '3'
+services:
+  django-service:
+    build: .
+    ports:
+    - 8001:8000
